@@ -8,7 +8,7 @@ import { Shape } from '../models/shape.model';
   providedIn: 'root',
 })
 export class BusRouteService {
-  private readonly url = 'https://macbus-api-rest-sigma.vercel.app/api/routes';
+  private readonly url = 'https://macbus-api-rest/api/routes';
 
   constructor(private http: HttpClient) {}
 

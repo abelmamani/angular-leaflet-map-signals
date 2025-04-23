@@ -8,7 +8,7 @@ import { Stop } from '../models/stop.model';
 })
 export class StopService {
   private readonly url: string =
-    'https://macbus-api-rest-sigma.vercel.app/api/stops';
+    'https://macbus-api-rest/api/stops';
 
   constructor(private http: HttpClient) {}
 
