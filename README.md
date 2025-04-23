@@ -12,7 +12,7 @@
   <img src="public/img/stop2025.png" width="80%"><br><br>
   
    <strong>Bus Routes</strong><br>
-  <img src="public/img/stop2025.png" width="80%"><br><br>
+  <img src="public/img/lineas2025.png" width="80%"><br><br>
   
 </p>
 
