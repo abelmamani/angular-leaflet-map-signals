@@ -1,6 +1,20 @@
-# MacbusAngularLeaflet
+# Macbus App (Angular 19 + Leaflet)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.1.
+## Technologies and Libraries
+
+- **Angular**
+- **Leaflet Map**
+- **ngrx/signals**-
+- **angular/material**- 
+
+<p align="center">
+  <strong>Bus Stops</strong><br>
+  <img src="public/img/stop2025.png" width="80%"><br><br>
+  
+   <strong>Bus Routes</strong><br>
+  <img src="public/img/stop2025.png" width="80%"><br><br>
+  
+</p>
 
 ## Development server
 

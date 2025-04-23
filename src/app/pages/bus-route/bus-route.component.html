@@ -1,0 +1,16 @@
+<mat-list role="list">
+  <h5 mat-subheader>Líneas disponibles</h5>
+
+  @for (busRoute of busRoutes; track busRoute.id) {
+  <mat-list-item
+    role="listitem"
+    [class.selected]="busRouteStore.busRoute()?.id === busRoute.id"
+    (click)="getShapes(busRoute)"
+  >
+    <div class="item">
+      <mat-icon>directions_bus</mat-icon>
+      <span> {{ busRoute.longName }}</span>
+    </div>
+  </mat-list-item>
+  }
+</mat-list>

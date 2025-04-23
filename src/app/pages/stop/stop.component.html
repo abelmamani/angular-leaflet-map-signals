@@ -1,0 +1,19 @@
+<h5 mat-subheader>Paradas disponibles</h5>
+<div class="list">
+  <mat-list role="list">
+    @for(stop of stops; track stop.id){
+    <mat-list-item
+      role="listitem"
+      [class.selected]="stopStore.stop()?.id === stop.id"
+      (click)="selectStop(stop)"
+    >
+      <div class="item">
+        <div>
+          <mat-icon>location_on</mat-icon>
+        </div>
+        <div>{{ stop.name }}</div>
+      </div>
+    </mat-list-item>
+    }
+  </mat-list>
+</div>
